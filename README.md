@@ -14,7 +14,7 @@ Small console program in C++ that implement support of 3D curves hierarchy.
 ## Installation
 
 - git clone https: https://github.com/AndrewAbramow/3D-curves-hierarchy
-- cd search_engine
+- cd 3D-curves-hierarchy
 - mkdir build
 - cd build
 - cmake ..

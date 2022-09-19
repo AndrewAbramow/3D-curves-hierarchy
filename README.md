@@ -13,7 +13,7 @@ Small console program in C++ that implement support of 3D curves hierarchy.
 
 ## Installation
 
-- git clone https://github.com/AndrewAbramow/search_engine.git
+- git clone https: https://github.com/AndrewAbramow/3D-curves-hierarchy
 - cd search_engine
 - mkdir build
 - cd build

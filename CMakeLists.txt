@@ -1,11 +1,12 @@
-﻿# CMakeList.txt : CMake project for 3D_curves_hierarchy, include source and define
-# project specific logic here.
+﻿# CMakeList.txt: проект CMake для 3DCurvesHierarchy; включите исходный код и определения,
+# укажите здесь логику для конкретного проекта.
 #
-cmake_minimum_required (VERSION 3.8)
+cmake_minimum_required (VERSION 3.17)
 
-project ("3D_curves_hierarchy")
+project ("3DCurvesHierarchy")
 
-# Add source to this project's executable.
-add_executable (3D_curves_hierarchy "3D_curves_hierarchy.cpp" "3D_curves_hierarchy.h")
-
-# TODO: Add tests and install targets if needed.
+# Добавьте источник в исполняемый файл этого проекта.
+add_subdirectory(tests)
+add_executable (3DCurvesHierarchy "src/3DCurvesHierarchy.cpp")
+target_include_directories(3DCurvesHierarchy PRIVATE "include")
+# TODO: Добавьте тесты и целевые объекты, если это необходимо.
